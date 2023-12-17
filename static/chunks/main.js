@@ -1658,7 +1658,7 @@ var G = class extends p {
         loop: !1,
         autoplay: !1,
         rendererSettings: { viewBoxOnly: !0 },
-        path: `/technologies/gemini/static/lottie/${e}`,
+        path: `./static/lottie/${e}`,
       });
     };
     this.createTimeline = () => {
@@ -1735,7 +1735,7 @@ var K = class extends p {
           loop: !1,
           autoplay: !1,
           rendererSettings: { viewBoxOnly: !0 },
-          path: "/static/lottie/StartBuilding_001.json",
+          path: "./static/lottie/StartBuilding_001.json",
         }));
     };
     this.createTimeline = () => {
